@@ -1,0 +1,303 @@
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+ }
+  .text > h1{
+ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: 120;
+    color:white;
+    margin-left: 40px;
+    margin-top: 15%;
+  } 
+  .text > p{
+    font-size: 30px;
+    font-weight: 20;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-top: 20px;
+    color: white;
+  }
+  .container > .left > .img{
+
+   display: flex;
+   gap: 40px;
+   justify-content: space-between;
+   position: relative;
+   width:400px;
+   height: 400px;
+   
+
+  }
+ 
+
+  .text2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: 120;
+    color: black;
+    margin-left: 40px;
+    margin-top: 15%;
+}
+
+.container .img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    position: absolute;
+
+
+   
+}
+
+.container .img img:last-child{
+  
+
+  top:0;
+  left: 0;
+
+}
+.container .img img:first-child{
+ 
+  bottom: 0;
+  right: 0;
+}
+.work > h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 100px;
+  font-weight: 120;
+  color: black;
+  margin-left: 40px;
+  margin-top: 5%;
+}
+.offer-img {
+  display: flex;
+   /* Add some gap between the images */
+  
+ 
+}
+
+.offer-img > div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.offer-img img {
+  height: auto; /* Maintain aspect ratio */
+  max-width: 500px; /* Set a fixed width */
+  width: 100%;
+  margin: auto;
+ 
+}
+
+.text-overlay {
+  position: absolute;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  z-index: 2;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: add a background to make the text more readable */
+  border-radius: 10px;
+}
+
+
+  
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+   
+
+}
+
+.right p {
+    font-size: 20px;
+    font-weight: 20;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: rgb(128, 125, 125)
+  
+
+    
+}
+.container > .right p{
+  text-align: right;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.right{
+  flex:1;
+  
+  
+}
+
+/*Projects*/
+.Projects > .left > h1{
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 80px;
+  font-weight: 200;
+  color: black;
+  margin-left: 40px;
+  
+}
+#italic{
+   
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-size: 80px;
+    font-style: normal;
+  
+}
+  .Projects{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+.Projects > .left > p{
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 80;
+
+
+}
+
+.Projects > .left{
+  text-align: left;
+  flex: 1;
+  margin-top: 5px;
+}
+.Projects > .right{
+display: block;
+padding-right: 20px;
+flex: 1;
+align-items: flex-end;
+text-align: right;
+flex-direction: column;
+margin-top: 60px;
+margin-right: 5px;
+
+}
+.web{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.web img{
+  height: auto; /* Maintain aspect ratio */
+  /* Set a fixed width */
+  width: 100%;
+  margin: auto;
+ 
+}
+ .web > div {
+  position: absolute;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  z-index: 2;
+  /* padding: 10px; */
+  font-size: 80px;
+  font-weight: 120;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%); 
+ }
+
+
+
+ /* Optional: add a background to make the text more readable */
+
+  .Contact > .right > .img{
+
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  position: relative;
+  width:500px;
+  height: 400px;
+  margin-right: 60px;
+  
+ }
+ .Contact .img img {
+  width: 200px;
+  height:200px;
+  border-radius: 20px;
+  position: absolute;
+  
+
+ 
+}
+
+.Contact .img img:last-child{
+       top:0;
+      right: 0;
+
+}
+.Contact .img img:first-child{
+
+bottom: 0;
+left: 0;
+}
+/* .Contact > .left{
+  flex: 1;
+  margin-right: 40%;
+} */
+.Contact > .right{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+.text11{
+  margin-left: 30px;
+} 
+.Contact{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+ 
+}
+
+.Contact > .left{
+  
+    display: block;
+    padding-right: 20px;
+    flex: 1;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 1%;
+    
+}
+.text22 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 80px;
+  font-weight: 120;
+  color: black;
+  margin-left: 30px;
+  margin-top: 5%;
+}
